@@ -1,6 +1,6 @@
 git:
   repo: https://github.com/Forgerock/forgeops-init.git
-  branch: master
+  branch: CLOUD-1269
 
 
 domain: forgeops.com

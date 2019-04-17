@@ -31,7 +31,7 @@ class Forgeops(object):
         self.config_repo = 'https://github.com/ForgeRock/forgeops-init'
         self.repo_path = '/tmp/forgeops'
         self.config_repo_path = '/tmp/forgeops-init'
-        self.branch = 'master'
+        self.branch = 'CLOUD-1269'
         self.logger = get_logger(self.__class__.__name__)
         self.repo_init()
         self.sample_configs = {

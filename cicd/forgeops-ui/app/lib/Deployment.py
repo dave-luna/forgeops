@@ -68,7 +68,7 @@ class Deployment(object):
                 "domain": "example.com",
                 "namespace": "changeme",
                 "git_config_repo": "https://github.com/ForgeRock/forgeops-init.git",
-                "git_config_repo_branch": "master",
+                "git_config_repo_branch": "CLOUD-1269",
             },
             "ignore": []
 

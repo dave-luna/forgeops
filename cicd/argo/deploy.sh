@@ -9,7 +9,7 @@
 
 #REPO=https://github.com/wstrange/forgeops
 REPO=https://github.com/ForgeRock/forgeops
-REVISION=master
+REVISION=CLOUD-1269
 NAMESPACE=test
 
 # Deploy ds instances

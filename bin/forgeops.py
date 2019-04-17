@@ -183,7 +183,7 @@ class ForgeopsGUI(object):
 
         i += 1
         Label(select_frame, text='Product config git branch').grid(row=i, column=0, sticky=W)
-        self.frconfig_git_branch.set('master')
+        self.frconfig_git_branch.set('CLOUD-1269')
         self.git_branch_text_field = Entry(select_frame, textvariable=self.frconfig_git_branch, width=50)
         self.git_branch_text_field.grid(row=i, column=1, sticky=W)
 
