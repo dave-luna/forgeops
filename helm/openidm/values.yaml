@@ -76,6 +76,7 @@ userstore:
   password: password
   port: 1389
   basecontext: "ou=identities"
+  user: "uid=admin"
 
 service:
   name: openidm

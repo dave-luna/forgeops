@@ -8,6 +8,7 @@ data:
     --serverUrl http://openam:80/am \
     --authorizedKey  /var/run/secrets/amster/authorized_keys \
     --cookieDomain {{.Values.domain }} \
+    --cfgStoreDirMgr {{.Values.configStore.dirManager }} \
     --adminPwd {{ if .Values.amadminPassword }}{{ .Values.amadminPassword }}{{ else }}{{ randAlphaNum 10 | quote }}{{end}} \
     --cfgStore {{ .Values.configStore.type }} \
     {{ if eq .Values.configStore.type "dirServer" -}}
@@ -52,4 +53,3 @@ data:
   AMADMIN_PASSWORD_HASHED: "{{ .Values.amadminPasswordHashed }}"
   DOMAIN: {{ .Values.domain }}
   COOKIE_DOMAIN: {{ trimPrefix "." .Values.domain }}
-
